@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cloudflareos-landingpage",
+  "main": "server.js",
+  "compatibility_date": "2026-10-09",
+  "assets": {
+    "directory": "."
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "GADGET",
+        "class_name": "Gadget"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["Gadget"]
+    }
+  ]
+}

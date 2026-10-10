@@ -1,0 +1,17 @@
+{
+  "name": "cloudflareos-landingpage",
+  "version": "1.0.0",
+  "description": "AI Training Landing Page created with Cloudflare OS Gadget",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": ["cloudflare-os", "landing-page", "durable-objects", "workers"],
+  "author": "tquoc229",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.100.0"
+  }
+}
